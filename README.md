@@ -10,11 +10,11 @@ Convert images to colorful ASCII art for terminal display.
 
 ## Requirements
 - Node.js 22 or newer
-- `pnpm` for local development (enforced via `preinstall`)
 
 ## Installation
+Install runtime deps (canvas is native, so keep it in dependencies):
 ```bash
-pnpm add img-ascii-term
+npm install canvas img-ascii-term
 ```
 
 ## Quick start

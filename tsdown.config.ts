@@ -8,5 +8,5 @@ export default defineConfig({
   shims: true,
   format: ['esm'],
   exports: true,
-  external: ['canvas', 'chalk'],
+  noExternal: ['chalk'],
 })

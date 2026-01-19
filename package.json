@@ -1,7 +1,7 @@
 {
   "name": "img-ascii-term",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Convert images to colorful ASCII art for terminal display",
   "license": "MIT",
   "packageManager": "pnpm@9.15.5",
@@ -17,7 +17,6 @@
     "dist"
   ],
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "build": "tsdown",
     "start": "tsdown && node ./playground/index.js",
     "dev": "tsdown --watch",
