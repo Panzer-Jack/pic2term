@@ -1,12 +1,16 @@
 # img-ascii-term
 Convert images to colorful ASCII art for terminal display.
 
+<img width="2552" height="1440" alt="image" src="https://github.com/user-attachments/assets/64fd8a18-a71a-404a-a3fa-c7579bd0933a" />
+
 ## Features
 - Converts images to ASCII strings you can print in any terminal
 - Truecolor output via `chalk` with an option to disable color
 - Maintains aspect ratio with a tunable output width and custom charset
 - Supports common formats: jpg, jpeg, png, gif, bmp, webp
 - Ships as an ESM package; works in Node.js environments that support `import`
+
+<img width="2560" height="1415" alt="image" src="https://github.com/user-attachments/assets/78a71e7c-2d9c-44a3-a430-4006ef518e23" />
 
 ## Requirements
 - Node.js 22 or newer
